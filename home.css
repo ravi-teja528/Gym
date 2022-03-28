@@ -1,0 +1,209 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	background-size: cover;
+	font-family: sans-serif;
+    color:white;
+}
+
+.header {
+
+  top: 0;
+  left: 0;
+  right: 0;
+ display: flex;
+ justify-content: space-around;
+ align-content: center;
+ border-bottom:2px ;
+ border-bottom-style: solid;
+ border-bottom-color: silver;
+
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	padding: 10px;
+}
+.logo a span{
+	
+	color: orange;
+
+}
+navbar{
+	align-content: center;
+	
+}
+.header .navbar span a{
+	border-bottom: solid 3px orange;
+}
+.header .pro a,.header .navbar a{
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	position: 10px;
+}
+
+.header .navbar a:hover{
+	background-color:orange ;
+}
+.slider-wrapper{
+	overflow: hidden;
+	padding-left: 15vw;
+}
+.slider{
+	overflow: hidden;
+	width: 80%;
+	padding-top: 1rem;
+}
+.slider figure{
+	overflow: hidden;
+	position: relative;
+	height: 75%;
+	width: 400%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+.slider figure img{
+	overflow: hidden;
+	float: left;
+	width: 25%;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+.heading {
+	text-align: center;
+	display: block;
+	justify-content: center;
+	padding: 5%;
+	color: white;
+	position: relative;
+}
+.heading span{
+	width: 100%;
+	color: orange;
+}
+.grid-container, .grid-container2{
+	overflow: hidden;
+	display: flex;
+	padding-bottom: 5%;
+}
+
+.grid-container .im .image1{
+	padding-left: 10%;
+}
+.grid-container2 .im .image1{
+	padding-right: 10%;
+}
+.grid-container .de ,.grid-container2 .de{
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	border-bottom: silver solid 1px;
+}
+.grid-container .de .desc1,.grid-container2 .de .desc1{
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	padding: 118px;
+}
+.grid-container .de span,.grid-container2 .de span{
+	font-size: 2rem;
+	color: orange;
+}
+.grid-container .de a,.grid-container2 .de a{
+	text-align: center;
+	padding: 8px;
+	width: 100px;
+	display: block;
+	font-family: sans-serif;
+	color: white;
+	background-color: orange;
+	text-decoration: none;
+	transition: 1s;
+}
+.grid-container .de a:hover,.grid-container2 .de a:hover{
+	color: orange;
+	transform: scale(1.25);
+	background-color: black;
+	text-shadow: 1.5px 1.5px 5px orange;
+	border: .1px solid white;
+}
+.grid-container .im .image1 img,.grid-container2 .im .image1 img{
+	transition: transform .7s;
+	width: 540px;
+	height: 360px;
+}
+.grid-container .im .image1 img:hover,.grid-container2 .im .image1 img:hover{
+	transform: scale(1.07);
+}
+.benfits{
+	position: relative;
+	text-align: center;
+	color: white;
+	 background-image:
+    radial-gradient(circle, rgba(0,0,0, 0), rgba(0,0,0, 0.73));
+}
+.benfits img{
+	top: 10%;
+	display: block;
+	margin: auto;
+	width: 75%;
+	opacity: .5 ;
+
+}
+.benfits .text{
+	padding: 0% 8% 0% 8%;
+	position: absolute;
+	left: 16px;
+	top: 8px;
+	opacity: .75;
+}
+.benfits .text h2{
+	line-height: 1.35%;
+}
+.benfits .text span{
+	font-weight: bolder;
+	float: left;
+	font-size: 1.25rem;
+	color: orange;
+
+}

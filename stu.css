@@ -1,0 +1,28 @@
+
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.title{
+	
+	height: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid rgba(0, 0, 0, 1.0);
+
+}
+
+.form{
+	padding-top: 10px;
+	justify-content: center;
+	background: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	color: #ffff;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+
+
+}
